@@ -21,6 +21,7 @@ export const BasicExample = () => {
           <Field name="name" As={TextInput} />
           <Field name="location.country" As={TextInput} />
           <Field name="location.region" As={TextInput} />
+          <button type="submit">Submit</button>
         </React.Fragment>
       )}
     </Form>

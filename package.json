@@ -14,7 +14,17 @@
     "link:package": "npm link && cd ./example && npm link recoil-dot-form",
     "dev:package": "npm run link:react && npm run link:recoil && npm run link:package && npm start & cd ./example && npm start"
   },
-  "keywords": [],
+  "keywords": [
+    "recoil forms",
+    "typesafe forms",
+    "typesafe react forms",
+    "flat",
+    "flat types",
+    "recoil-form",
+    "recoil-dot-form",
+    "recoil",
+    "dot notation"
+  ],
   "author": "Jayden Hinrichsen",
   "license": "ISC",
   "devDependencies": {
