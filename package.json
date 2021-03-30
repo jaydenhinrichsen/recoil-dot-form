@@ -1,0 +1,40 @@
+{
+  "name": "recoil-dot-form",
+  "version": "0.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w",
+    "link:react": "npm link ./example/node_modules/react",
+    "link:recoil": "npm link ./example/node_modules/recoil",
+    "link:package": "npm link && cd ./example && npm link recoil-dot-form",
+    "dev:package": "npm run link:react && npm run link:recoil && npm run link:package && npm start & cd ./example && npm start"
+  },
+  "keywords": [],
+  "author": "Jayden Hinrichsen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "@types/yup": "^0.29.11",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "recoil": "^0.1.3",
+    "rollup": "^2.44.0",
+    "rollup-plugin-typescript2": "^0.30.0",
+    "typescript": "^4.2.3",
+    "yup": "^0.32.9"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "yup": "^0.32.9",
+    "recoil": "^0.1.3"
+  }
+}
