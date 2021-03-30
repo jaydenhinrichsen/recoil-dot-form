@@ -1,5 +1,5 @@
 {
-  "name": "recoil-dot-form",
+  "name": "recoil-dot-form-test",
   "version": "0.0.0",
   "description": "",
   "main": "dist/index.js",
@@ -11,7 +11,7 @@
     "start": "rollup -c -w",
     "link:react": "npm link ./example/node_modules/react",
     "link:recoil": "npm link ./example/node_modules/recoil",
-    "link:package": "npm link && cd ./example && npm link recoil-dot-form",
+    "link:package": "npm link && cd ./example && npm link recoil-dot-form-test",
     "dev:package": "npm run link:react && npm run link:recoil && npm run link:package && npm start & cd ./example && npm start"
   },
   "keywords": [
