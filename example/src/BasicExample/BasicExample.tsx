@@ -1,5 +1,5 @@
 import React from 'react';
-import { Form, flatten, FieldProps } from 'recoil-dot-form';
+import { Form, flatten, FieldProps } from 'recoil-dot-form-test';
 
 const person = {
   name: 'John',
